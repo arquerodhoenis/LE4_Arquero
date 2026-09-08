@@ -7,10 +7,10 @@ int main() {
     float average;
 
     printf("Enter your complete name: ");
-    scanf(" %s", name);
+    scanf(" %s", &name);
 
     printf("Enter your section: ");
-    scanf(" %s", section);
+    scanf(" %s", &section);
 
     printf("Enter 1st Quarter Grade: ");
     scanf("%f", &grade1);
